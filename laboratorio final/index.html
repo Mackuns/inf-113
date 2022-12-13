@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio final</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js"></script>
+</head>
+<body>
+<div class="contenedor-vertical">
+    <header>
+        <img src="logo-umsa.png" alt="">
+        <div class="univer">
+            UNIVERSIDAD MAYOR DE SAN ANDRES
+        </div>
+        <div class="titular">
+            APELLIDOS: COPA HUAYTA <BR>
+            NOMBRE: Jhonatan Magdiel <br>
+            C.I.: E-11602939 R.U.:1806645
+        </div>
+    </header>
+    <form action="" method="post" name="formulario">
+        <div class="contenedor-horizontal">
+            <nav class="menu-vertical">
+                <input type="button" name="fibo" value="1. FIBONACCI" onclick="fibonacci();">
+                <input type="button" name="serie1" value="2. SERIE BINARIA" onclick="serieBinaria();">
+                <input type="button" name="factSerie" onclick="serieFactorial();" value="3. FACTORIAL SERIE">
+                <input type="button" value="4. ROTAR PARES" onclick="rotarpares();" >
+               
+                <input type="button" value="5. DIG REPETIDO" onclick="digrepe();" >
+                <input type="button" name="capicua" onclick="Capicua();" value="6. ES CAPICUA?">
+                <input type="button"  value="7. ES PRIMO.?" onclick="esprimo();">
+                <input type="button"  value="8. GENERAR PRIMO" onclick="genprimo();">
+                <input type="button" name="vectfib" onclick="vectofibo();" value="9. VECTOR FIBONACCI">
+                <input type="button" name="expo" onclick="serieexpo();" value="10. SERIE EXPONENCIAL en la clculadora">
+                <input type="button" name="palind" onclick="espalindrome();" value="11. ES PALINDROME?">
+                <input type="button" name="invcad" onclick="invercadena();" value="12. INVERTIR CADENA">
+                <input type="button" name="calc" value="13. CALCULADORA">
+                <div class="calculadora">
+                    <label for="entrada1">NUMERO 1</label>
+                    <input type="text" name="entrada1" value="">
+                    <label for="entrada2">NUMERO 2</label>
+                    <input type="text" name="entrada2" value="">
+                    <div class="botones-calculadora">
+                        <input type="button" name="s" onclick="suma();" value="+">
+                        <input type="button" name="r" onclick="resta();" value="-">
+                        <input type="button" name="m" onclick="multiplicacion();" value="*">
+                        <input type="button" name="d" onclick="division();" value="/">
+                        <input type="button" name="e" onclick="fact();" value="!">
+                        <input type="button" name="f" onclick="potencia();" value="**">
+                        <input type="button" name="g" onclick="serieexpo();" value="serie expo">
+                    </div>
+                    <input type="text" name="salida" size="auto">
+                </div>
+            </nav>
+
+            <main>
+                
+                <label for="resultado">ENTRADA DE DATOS (Ingresa un numero)</label>
+                <input type="text" name="entrada" value="">
+                <label for="resultado">RESULTADO</label>
+                <input type="text" name="resultado" size="auto">
+                <label for="resultado2">MATRIZ:</label>
+                <textarea name="resultado2" rows="10" cols="auto"></textarea>
+            </main>
+
+            <aside>
+                <div class="derecho">
+                    <input type="button" name="convero" value="14. CONVERTIR A ROMANS" onclick="converroman();">
+            
+                    <input type="button" value="15. PASCAL" onclick="pascal();">
+                    
+                    <input type="button" value="17. SUMAR IMPARES" onclick="fibimpar();" >
+                   
+                    <input type="button" name="lotedo" onclick="lottres();" value="19. LOTE 1,3,6">
+                    <input type="button" name="matripaz" onclick="pascal();" value="25. MATRIZ PASCAL2">
+                    <input type="button" name="evalexp" onclick="evaluarexpremat();" value="26. EVALUAR EXPRE MAT">
+                    <input type="button" value="27. MATRIZ CARACOL" onclick="matrizCaracol();">
+                    
+                </div>
+            </aside>
+        </div>
+    </form>
+
+
+    <footer>
+        <br>
+        <p>Webmaster: Jhonatan Magdiel Copa Huayta</p> <br>
+        <p>Laboratorio INF-113 &copy; 2022</p>
+    </footer>
+</div>
+</body>
+</html>
